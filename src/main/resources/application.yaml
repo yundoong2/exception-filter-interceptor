@@ -2,3 +2,8 @@ server:
   error:
     whitelabel:
       enabled: false
+    include-exception: true
+    include-message: always
+    include-stacktrace: never
+    include-binding-errors: never
+

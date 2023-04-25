@@ -8,8 +8,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import practice.exception.filter.LogFilter;
 import practice.exception.interceptor.LogInterceptor;
 
-import javax.servlet.DispatcherType;
-import javax.servlet.Filter;
+import jakarta.servlet.DispatcherType;
+import jakarta.servlet.Filter;
 
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
